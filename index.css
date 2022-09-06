@@ -1,0 +1,26 @@
+h1{
+color:blue;
+text-align: center;
+text-transform: uppercase;
+transition: all 1000ms;
+animation: 2s move forwards;
+}
+@keyframes move {
+    0%{
+        opacity: 0;
+        transform: translatex(-500px) ;
+    }
+    50%{
+        opacity: 0.5;
+    }
+    100%{
+        opacity: 1;
+    }
+    
+}
+
+p{
+    color:blueviolet;
+    font-size: large;
+    color: brown;
+}
